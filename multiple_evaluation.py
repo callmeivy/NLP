@@ -1,18 +1,13 @@
 #coding:UTF-8
 '''
-Created on 2016年3月3日
+Created on
 
-@author: Ivy
+@author:
 
-综合评价表，mysql中对应的是multiple_evaluation
-需要用到customer_evaluation中的数据，所以注意代码run的先后顺序
+综合评价表
 
 美誉度evaluation：好评和差评的综合；评议度discuss：回复和转发的综合；曝光量exposure：曝光数的平滑；关注趋势attention：粉丝增长趋势；微博活跃度active
-3月24日补充，
 
-微博活跃度通过数WEIBO_POST_JQJM当中的hot个数来衡量
-4月5日补充，
-加上日期这一维度
 
 '''
 import os, sys
