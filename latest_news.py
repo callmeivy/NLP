@@ -1,13 +1,10 @@
 #coding:UTF-8
 '''
-Created on 2016年3月4日
+Created on 
 
-@author: Ivy
+@author
 最新新闻
-结果对应sql表是newest_news
-英文日期应该转化为2016-03-04的格式
-4月5日补充，
-加上日期这一维度
+
 '''
 import sys,os
 from sys import path
