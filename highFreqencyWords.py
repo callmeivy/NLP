@@ -1,17 +1,9 @@
 #coding: UTF-8
 '''
-by Ivy
 created on 2016年3月2日
 高频评论词分析，抓取评论内容，做词云
 high-freqency words
-结果对应sql表是ci_yun_comment
-3月24日补充，
-以“JQJM”为关键词的微博原贴代替，按理应该是底下的评论
-3月25日补充，
-其他竞争栏目的词云也是从这里出
-4月5日补充，
-加上日期这一维度，并将其扩充到竞争栏目，新增维护hbase先关信息，
-详细请看hbase_info
+
 '''
 import sys
 reload(sys)
