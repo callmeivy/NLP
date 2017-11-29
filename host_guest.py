@@ -1,15 +1,9 @@
 #coding:UTF-8
 '''
-Created on 2016年3月7日
+Created on
 
-@author: Ivy
-主持嘉宾热度，并不是基本信息
-结果对应sql表是host_popularity
-3月25日补充，
-基本信息部分因为没有数据，先把我们的sql表复制过去
-4月6日补充
-host_popularity显示主持人基本信息和当天热度（用update而不是insert），top_host_trend是热度趋势
-目前这个代码不涉及基本信息的抓取
+@author:
+主持嘉宾热度
 '''
 import sys,os
 from sys import path
