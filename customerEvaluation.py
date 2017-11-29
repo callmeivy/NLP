@@ -2,7 +2,7 @@
 '''
 Created on 2016年3月2日
 
-@author: Ivy
+@author: 
 
 '''
 import sys,os
