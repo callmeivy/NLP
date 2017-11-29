@@ -1,14 +1,10 @@
 #coding:UTF-8
 '''
-Created on 2016年3月2日
+Created on 
 
-@author: Ivy
+@author
 媒体偏好度，抓取贴吧用户评论数据，进行情感分析
-结果对应sql表是customer_evaluation
-3月24日补充，
-本该是JQJM的贴吧，但是贴吧暂时不对外开放，暂用buzz表取代
-4月5日补充，
-加上日期这一维度
+
 '''
 import sys,os
 from sys import path
